@@ -1,0 +1,296 @@
+@font-face {
+  font-family: 'FiraSans-Regular.ttf';
+  src: url('../fonts/Fira_Sans/FiraSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'FiraSans-Medium.ttf';
+  src: url('../fonts/Fira_Sans/FiraSans-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'FiraSans-Bold.ttf';
+  src: url('../fonts/Fira_Sans/FiraSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'FiraSans-ExtraBold.ttf';
+  src: url('../fonts/Fira_Sans/FiraSans-ExtraBold.ttf');
+}
+
+@font-face {
+  font-family: 'FiraSans-Black.ttf';
+  src: url('../fonts/Fira_Sans/FiraSans-Black.ttf');
+}
+
+@font-face {
+  font-family: 'FiraSans-LightItalic.ttf';
+  src: url('../fonts/Fira_Sans/FiraSans-LightItalic.ttf');
+}
+
+body {
+  font-family: 'FiraSans-Regular.ttf';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  background: rgba(251,210,163,1.0);
+  color: rgba(0,0,0,1.0);
+  margin: 0;
+  padding: 0;
+}
+
+a:link {text-decoration:none; color:rgba(0,0,0,1.0);}
+a:visited {text-decoration:none; color:rgba(0,0,0,1.0);}
+a:hover {
+  text-decoration: none;
+  font-family: 'FiraSans-Bold.ttf';
+}
+a:active {text-decoration: none;}
+
+nav {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+ul {list-style-type:none; margin: 0; padding: 0;}
+
+td {width:50%; overflow:hidden;}
+
+footer {text-align: center; margin-top: 4%;}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: inline-block;
+}
+
+footer li {
+  display: inline;
+  float: left;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+footer li a {
+  display: block;
+}
+
+/* IDs */
+
+#datetime {
+  text-align:center;
+  font-size:150%;
+  line-height: 150%;
+}
+@media(max-width: 480px) {
+  #datetime {font-size: 125%;}
+}
+@media(min-width: 750px) {
+  #datetime {font-size: 175%;}
+}
+@media(min-width: 1000px) {
+  #datetime {font-size: 200%;}
+}
+
+#wineries {padding: 2%;}
+#cideries {padding: 2%;}
+
+#music {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: none;
+}
+
+#garages {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#photos {
+  overflow: auto;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+#footer_legal {
+  margin-bottom: 2em;
+  margin-top: 1em;
+}
+
+/* classes */
+
+.logo {
+  width: 90%;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.italic {
+  font-family: 'FiraSans-LightItalic.ttf';
+  font-style: italic;
+}
+
+.category img {
+  width: 40%;
+}
+@media (max-width: 750px) {
+  .category img {width:100%;}
+}
+
+@media (min-width: 750px) {
+  .category img {width: 70%;}
+}
+
+.business_name {
+  padding-top: 1.5em;
+  font-size: 175%;
+  font-family: 'FiraSans-Bold.ttf';
+  white-space: nowrap;
+}
+
+.business_name a:hover {
+  font-family: 'FiraSans-Black.ttf';
+  white-space: nowrap;
+}
+
+.business_address {font-size: 125%; white-space: nowrap;}
+
+.business_address a:hover {
+  font-family: 'FiraSans-Bold.ttf';
+  font-weight: 700;
+  font-style: normal;
+}
+
+.business_description {font-size: 125%;}
+
+.strip {
+  width:100%;
+  max-width: 1000px;
+  margin-top:0;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0;
+  display:block;
+}
+
+table {text-align: left;}
+
+td {width:auto;}
+
+table img {
+  width: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+  display: block;
+}
+
+.social_icon {width:3em;}
+
+.music_venue {
+  font-size: 200%;
+  font-family: 'FiraSans-Bold.ttf';
+  text-align: center;
+  padding-top: 4%;
+}
+
+.day {
+  font-family: 'FiraSans-Black.ttf';
+  font-size: 150%;
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  letter-spacing: .15em;
+}
+
+.time {
+  font-family: 'FiraSans-Black.ttf';
+  font-size: 200%;
+  text-align: right;
+  padding-right: 2em;
+  width: 30%;
+  white-space: nowrap;
+}
+
+.name {
+  font-family: 'FiraSans-Bold.ttf';
+  font-size: 150%;
+  width: 70%;
+}
+
+.name a:hover {
+  font-family: 'FiraSans-Black.ttf';
+}
+
+.garage_name img {max-width: 500px;}
+
+@media (max-width: 750px) {
+.garage_name img {width: 60%;} }
+
+@media (min-width: 750px) {
+garage_name {width: 30%;} }
+
+.garage_address {
+  font-family: 'FiraSans-Medium.ttf';
+  font-size:150%;
+}
+
+.garage_description {
+  font-size: 125%;
+  margin-bottom: 4%;
+}
+
+.note {font-size: 150%;}
+
+.description {
+  font-family: 'FiraSans-LightItalic.ttf';
+  font-style: italic;
+  font-size: 125%;
+}
+
+.questions {
+  font-size: 150%;
+}
+
+.questions td {
+  padding-bottom: 2%;
+  width:auto;
+}
+
+.q_num {
+  width: 6% !important;
+  text-align: right;
+  padding-right: 2em;
+  padding-left: 1em;
+}
+
+.answer {
+  text-align: center;
+  width: auto;
+  padding-bottom: 3%;
+  background: rgba(174,138,96,1.0);
+}
+
+.padding-l {width: auto;}
+.padding-r {width: auto;}
+
+.header_date {text-align: right; padding-right: 1.5em;}
+.header_time {text-align: left;}
+
+.gallery {
+  height: 420px;
+  padding: 2em;
+  white-space: nowrap;
+}
+
+.legal_list {
+  margin: 2em;
+  list-style-type: disc;
+  font-size: 125%;
+}
+.legal_list li {margin-bottom: 1em;}

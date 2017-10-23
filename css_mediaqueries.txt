@@ -1,0 +1,7 @@
+CSS media queries to write
+
+Logotype:
+@2x, display 2x img
+@3x, display 3x img
+
+252 194 141
