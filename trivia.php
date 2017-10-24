@@ -11,13 +11,7 @@
 
      <a href='index.html'><img class='logo' alt='logotype' src='img/logotype.png'></a>
 
-     <div id='datetime'>
-       <ul>
-         <li>FRIDAY, SEPT. 29, 2017  12:00pm - 6:00pm</li>
-         <li>SATURDAY, SEPT. 30, 2017  10:00am - 6:00pm</li>
-         <li>SUNDAY, OCT. 1, 2017  10:00am - 6:00pm</li>
-       </ul>
-     </div>
+      <?php include 'includes/datetime.php'; ?>
 
       <div id='trivia'>
         <!-- <p class='intro'>Introduction sentence goes here</p> -->
@@ -85,15 +79,7 @@
       </table>
     </div>
 
-      <footer>
-        <ul>
-          <li><a href='https://www.facebook.com/events/985779458123403/'><img class='social_icon' alt='facebook' src='img/facebook_000.png'></a></li>
-          <li><a href='https://www.instagram.com/downtownithaca/'><img class='social_icon' alt='instagram' src='img/instagram_000.png'></a></li>
-          <li><a href='https://twitter.com/downtownithaca'><img class='social_icon' alt='twitter' src='img/twitter_000.png'></a></li>
-          <li><a href='https://www.youtube.com/user/downtownithaca'><img class='social_icon' alt='youtube' src='img/youtube_000.png'></a></li>
-        </ul>
-        <div id='footer_legal'><a href='legal.html'>Legal information</a></div>
-      </footer>
+      <?php include 'includes/footer.php'; ?>
 
    </body>
 </html>
