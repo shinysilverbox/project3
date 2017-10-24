@@ -9,7 +9,7 @@
 
    <body>
 
-     <a href='index.html'><img class='logo' alt='logotype' src='img/logotype.png'></a>
+     <a href='index.php'><img class='logo' alt='logotype' src='img/logotype.png'></a>
 
       <?php include 'includes/datetime.php'; ?>
 

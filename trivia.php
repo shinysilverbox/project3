@@ -9,22 +9,34 @@
 
    <body>
 
-     <a href='index.html'><img class='logo' alt='logotype' src='img/logotype.png'></a>
+     <a href='index.php'><img class='logo' alt='logotype' src='img/logotype.png'></a>
 
       <?php include 'includes/datetime.php'; ?>
 
       <div id='trivia'>
-        <!-- <p class='intro'>Introduction sentence goes here</p> -->
         <table class='questions'>
+          <form action='http://af.shinysilverbox.com/submit.php' method='get'>
 
           <tr><td class='q_num'>1)</td><td>What is the science of growing apples called?</td></tr>
-          <tr><td class='padding-l'></td><td class='answer'>Pomology</td></tr>
+          <tr><td class='padding-l'></td><td class='answer'><input type='text' name='answer1'/></td></tr>
 
           <tr><td class='q_num'>2)</td><td>How many varieties of apples are grown around the world?</td></tr>
-          <tr><td class='padding-l'></td><td class='answer'>7,500.</td></tr>
+          <tr><td class='padding-l'></td><td class='answer'>
+            <input type='radio' name='answer2' value='250'/> 250
+            <input type='radio' name='answer2' value='2500'/> 2,500
+            <input type='radio' name='answer2' value='7500'/> 7,500
+            <input type='radio' name='answer2' value='75000'/> 75,000
+          </td></tr>
 
           <tr><td class='q_num'>3)</td><td>How many apple leaves are used to produce one apple?</td></tr>
-          <tr><td class='padding-l'></td><td class='answer'>The energy from 30 leaves.</td></tr>
+          <tr><td class='padding-l'></td><td class='answer'>
+            <select name='answer3'>
+              <option value='6'>6</option>
+              <option value='16'>16</option>
+              <option value='30'>30</option>
+              <option value='300'>300</option>
+            </select>
+          </td></tr>
 
           <tr><td class='q_num'>4)</td><td>How many apples does the average person eat in a year?</td></tr>
           <tr><td class='padding-l'></td><td class='answer'>50.</td></tr>
