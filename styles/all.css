@@ -78,6 +78,21 @@ footer li a {
   display: block;
 }
 
+input {
+  font-family: 'FiraSans-Regular.ttf', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 125%;
+}
+
+select {
+  /*-webkit-appearance: none;*/
+  font-family: 'FiraSans-Regular.ttf', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 125%;
+}
+
 /* IDs */
 
 #datetime {
@@ -273,7 +288,11 @@ garage_name {width: 30%;} }
   text-align: center;
   width: auto;
   padding-bottom: 3%;
-  background: rgba(174,138,96,1.0);
+  /*background: rgba(174,138,96,1.0);*/
+  font-family: 'FiraSans-Regular.ttf';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 125%;
 }
 
 .padding-l {width: auto;}
@@ -294,3 +313,11 @@ garage_name {width: 30%;} }
   font-size: 125%;
 }
 .legal_list li {margin-bottom: 1em;}
+
+.submit {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: none;
+}
