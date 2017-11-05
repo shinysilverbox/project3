@@ -16,10 +16,11 @@
 
       <div id='trivia'>
         <table class='questions'>
-          <form action='submit.php' method='get'>
+          <form method='post' action='submit.php' method='get' id='trivia_form' novalidate>
 
           <tr><td class='q_num'>1)</td><td>What is the science of growing apples called?</td></tr>
           <tr><td class='padding-l'></td><td class='answer'><input type='text' name='answer1'/></td></tr>
+          <tr><td colspan='2' class='errorRow hiddenError' id='question1Error'>Please take a guess!</td></tr>
 
           <tr><td class='q_num'>2)</td><td>How many varieties of apples are grown around the world?</td></tr>
           <tr><td class='padding-l'></td><td class='answer'>
@@ -138,7 +139,7 @@
 
           <tr><td class='q_num'>16)</td><td>How did the town of Ithaca get its name?</td></tr>
           <tr><td class='padding-l'></td><td class='answer'>
-            <textarea name='answer16' cols='40' rows='3' placeholder=''></textarea>
+            <textarea name='answer16' cols='40' rows='3' placeholder='' maxlength='100'></textarea>
           </td></tr>
 
           <tr><td class='q_num'>17)</td><td>Who employs the most people in Ithaca?</td></tr>
@@ -168,7 +169,7 @@
           </td></tr>
 
           <tr><td class='q_num'>20)</td><td>What year was the first Ithaca Apple Harvest Festival held?</td></tr>
-          <tr><td class='padding-l'></td><td class='answer'><input type='number' name='answer20'></td></tr>
+          <tr><td class='padding-l'></td><td class='answer'><input type='text' name='answer20' maxlength='4' size='4'></td></tr>
           <!--Need to include validation logic for non-numbers-->
 
           <tr><td class='q_num'>21)</td><td>4 of the following lakes are Finger Lakes. Which ones?</td></tr>
@@ -186,6 +187,7 @@
             <input type='checkbox' name='answer21' value='skaneateles'/> Lake Skaneateles
           </td></tr>
       </table>
+      <button type='submit' class='submit'>SUBMIT</button>
     </div>
 
       <?php include 'includes/footer.php'; ?>
