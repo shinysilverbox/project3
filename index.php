@@ -5,6 +5,7 @@
       <link rel='stylesheet' href='styles/all.css' />
       <meta charset='utf-8' />
       <title>Ithaca Apple Harvest Festival</title>
+      
    </head>
 
    <body>

@@ -328,3 +328,5 @@ garage_name {width: 30%;} }
   display: block;
   float: none;
 }
+
+.hiddenError {display:none;}
