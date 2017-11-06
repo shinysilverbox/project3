@@ -329,4 +329,14 @@ garage_name {width: 30%;} }
   float: none;
 }
 
-.hiddenError {display:none;}
+.errorRow {
+  font-family: 'firasans-bold.ttf', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: red;
+  text-align: center;
+}
+
+.hiddenError {
+  display:none;
+}
