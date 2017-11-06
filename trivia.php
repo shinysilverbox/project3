@@ -195,18 +195,18 @@
             <!--Need to include validation logic for non-numbers-->
 
             <tr><td class='q_num'>21)</td><td>4 of the following lakes are Finger Lakes. Which ones?</td></tr>
-            <tr><td class='padding-l'></td><td class='answer'>
-              <input type='checkbox' name='answer21' class='answer21' value='ampersand' required/> Lake Ampersand
-              <input type='checkbox' name='answer21' class='answer21' value='canadice' required/> Lake Canadice
-              <input type='checkbox' name='answer21' class='answer21' value='champlain' required/> Lake Champlain
-              <input type='checkbox' name='answer21' class='answer21' value='conesus' required/> Lake Conesus
-              <input type='checkbox' name='answer21' class='answer21' value='gilead' required/> Lake Gilead
-              <input type='checkbox' name='answer21' class='answer21' value='green' required/> Lake Green
-              <input type='checkbox' name='answer21' class='answer21' value='hemlock' required/> Lake Hemlock
-              <input type='checkbox' name='answer21' class='answer21' value='kanawauke' required/> Lake Kanawauke
-              <input type='checkbox' name='answer21' class='answer21' value='ontario' required/> Lake Ontario
-              <input type='checkbox' name='answer21' class='answer21' value='placid' required/> Lake Placid
-              <input type='checkbox' name='answer21' class='answer21' value='skaneateles' required/> Lake Skaneateles
+            <tr><td class='padding-l'></td><td class='answer answer21_group'>
+              <input type='checkbox' name='answer21' class='answer21' value='ampersand' /> Lake Ampersand
+              <input type='checkbox' name='answer21' class='answer21' value='canadice' /> Lake Canadice
+              <input type='checkbox' name='answer21' class='answer21' value='champlain' /> Lake Champlain
+              <input type='checkbox' name='answer21' class='answer21' value='conesus' /> Lake Conesus
+              <input type='checkbox' name='answer21' class='answer21' value='gilead' /> Lake Gilead
+              <input type='checkbox' name='answer21' class='answer21' value='green' /> Lake Green
+              <input type='checkbox' name='answer21' class='answer21' value='hemlock' /> Lake Hemlock
+              <input type='checkbox' name='answer21' class='answer21' value='kanawauke' /> Lake Kanawauke
+              <input type='checkbox' name='answer21' class='answer21' value='ontario' /> Lake Ontario
+              <input type='checkbox' name='answer21' class='answer21' value='placid' /> Lake Placid
+              <input type='checkbox' name='answer21' class='answer21' value='skaneateles' /> Lake Skaneateles
             </td></tr>
             <tr><td colspan='2' class='errorRow hiddenError' id='answer21Error'>Please take a guess!</td></tr>
           </table>

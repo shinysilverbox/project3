@@ -163,7 +163,9 @@ $(document).ready(function () {
       formValid = false;
     }
 
-    answer21IsValid = $(".answer21").prop("validity").valid;
+    // The logic for the following line comes from https://stackoverflow.com/questions/6218494/using-the-html5-required-attribute-for-a-group-of-checkboxes
+    // It is currently broken, but eventually, it will make sure that exactly 4 boxes are checked. I have to think of a way to tally this from the submission somehow.
+    answer21IsValid = $('.answer21_group :checkbox:checked').length = 4;
     if(answer21IsValid) {
       $("#answer21Error").hide();
     } else {
